@@ -6,9 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello world!
-        </p>
+        <h1>
+          Hey Brian!
+        </h1>
+        <p>So this here be a fair dinkum single container React app, deployed using Docker, automatically triggered from Travis on 'main' PR merge, in an Azure Web App Service... no shit!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
