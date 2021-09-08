@@ -28,4 +28,5 @@ deploy:
   site: $AZURE_WA_SITE
   on:
     branch: main
+  verbose: true
 
