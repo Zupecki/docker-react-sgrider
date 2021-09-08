@@ -23,7 +23,7 @@ script:
 
 deploy:
   provider: azure_web_apps
-  username: $AZURE_WA_USERNAME
+  username: $AZURE_WA_USER
   password: $AZURE_WA_PASSWORD
   site: $AZURE_WA_SITE
   on:
