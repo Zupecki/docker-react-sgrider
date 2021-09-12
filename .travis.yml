@@ -25,7 +25,6 @@ deploy:
   username: $AZURE_WA_USER
   password: $AZURE_WA_PASSWORD
   site: $AZURE_WA_SITE
-  slot: $AZURE_WA_SLOT
   on:
     branch: main
   verbose: true
