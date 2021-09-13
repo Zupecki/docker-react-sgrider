@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t mzupecki/docker-react-sgrider -f Dockerfile.dev .
+  - docker build -t mzupecki/docker-react-sgrider -f Dockerfile .
 
 script:
   - docker run -e CI=true mzupecki/docker-react-sgrider npm run test
