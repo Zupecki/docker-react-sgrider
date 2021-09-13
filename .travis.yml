@@ -28,4 +28,3 @@ deploy:
   on:
     branch: main
   verbose: true
-  skip_cleanup: true
